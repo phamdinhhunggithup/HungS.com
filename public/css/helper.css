@@ -1,0 +1,6 @@
+@import "../css/reset.css";
+@import "../css/base.css";
+@import "../css/global.css";
+@import "../css/import/layout.css";
+@import "../css/plugin/animate.min.css";
+@import "../font-awesome/css/font-awesome.min.css";

@@ -1,0 +1,258 @@
+#wp__content {
+  margin-top: 150px;
+  transition: all .5s;
+}
+#wp__content.active {
+  margin-top: 187px;
+  transition: all .5s;
+}
+#wp__content .grid__row .grid__item.section--login .system__login .form__title h4, #wp__content .grid__row .grid__item.section--register .form__title h4 {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+#wp__content .grid__row .grid__item.section--login .system__login .form__content .form__group, #wp__content .grid__row .grid__item.section--register .form__content .form__group {
+  padding: 10px 5px;
+}
+#wp__content .grid__row .grid__item.section--login .system__login .form__content .form__group label, #wp__content .grid__row .grid__item.section--register .form__content .form__group label,
+#wp__content .grid__row .grid__item.section--login .system__login .form__content .form__group span,
+#wp__content .grid__row .grid__item.section--register .form__content .form__group span {
+  display: block;
+  color: #666;
+  margin-bottom: 3px;
+  font-size: .7rem;
+  font-weight: 300;
+}
+#wp__content .grid__row .grid__item.section--login .system__login .form__content .form__group input.form__control, #wp__content .grid__row .grid__item.section--register .form__content .form__group input.form__control {
+  width: 100%;
+  border: 1px solid #bbb;
+  padding: 7px 10px;
+  color: #4c4c4c;
+  letter-spacing: 1.2px;
+}
+#wp__content .grid__row .grid__item.section--login .system__login .form__content .form__group button.btn, #wp__content .grid__row .grid__item.section--register .form__content .form__group button.btn {
+  background-color: var(--black-color);
+  border: none;
+  color: var(--white-color);
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+#wp__content .grid__row {
+  max-width: 1220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#wp__content .grid__row .border {
+  width: 1px;
+  background-color: #e1e1e1;
+  margin: 0 100px;
+}
+#wp__content .grid__row .grid__item {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 16px;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 10px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+#wp__content .grid__row .grid__item.section--login .lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: -12px;
+    height: 50px;
+  }
+  50%,
+                    100% {
+    top: 4px;
+    height: 18px;
+  }
+}
+#wp__content .grid__row .grid__item.section--login .system__login .form__title {
+  margin-bottom: 30px;
+}
+#wp__content .grid__row .grid__item.section--login .system__login .form__content .form__group .forgot__pass {
+  color: #717171;
+  padding: 5px 0;
+  text-decoration: underline;
+  text-align: center;
+  font-size: .65rem;
+}
+#wp__content .grid__row .grid__item.section--login .sign__in-divide {
+  position: relative;
+  margin: 5px 0;
+  color: #ccc;
+  text-align: center;
+  font-size: .7rem;
+}
+#wp__content .grid__row .grid__item.section--login .sign__in-divide::after {
+  position: absolute;
+  content: "";
+  width: 45%;
+  height: 1px;
+  background: #e5e5e5;
+  top: 6.5px;
+  right: 0;
+}
+#wp__content .grid__row .grid__item.section--login .sign__in-divide::before {
+  position: absolute;
+  content: "";
+  width: 45%;
+  height: 1px;
+  background: #e5e5e5;
+  top: 6.5px;
+  left: 0;
+}
+#wp__content .grid__row .grid__item.section--login .social__login .login__item {
+  padding: 10px 15px;
+  width: 100%;
+  background: none;
+  border: 1px solid #cccccc;
+  margin: 20px 0;
+  cursor: pointer;
+}
+#wp__content .grid__row .grid__item.section--login .social__login .login__item .icon {
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+#wp__content .grid__row .grid__item.section--login .social__login .login__item .icon img {
+  height: 100%;
+}
+#wp__content .grid__row .grid__item.section--login .social__login .login__item.fb--login .icon {
+  margin-left: 4px;
+}
+#wp__content .grid__row .grid__item.section--login .social__login .login__item .text {
+  font-family: monospace;
+  color: #7d7d7d;
+  font-size: 1rem;
+}
+#wp__content .grid__row .grid__item.section--login .sign-in-discountinfo span {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+#wp__content .grid__row .grid__item.section--login .sign-in-discountinfo span strong {
+  color: #d53333;
+}
+#wp__content .grid__row .grid__item.section--register .form__title {
+  margin-bottom: 30px;
+}
+#wp__content .grid__row .grid__item.section--register .form__content label[for='prefer'] {
+  color: #333;
+  margin-bottom: 10px;
+}
+#wp__content .grid__row .grid__item.section--register .form__content .prefer__item {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+#wp__content .grid__row .grid__item.section--register .form__content .prefer__item label {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+}
+#wp__content .grid__row .grid__item.section--register .form__content .prefer__item label span {
+  width: 6px;
+  height: 12px;
+  position: absolute;
+  top: 1px;
+  left: 5px;
+  transform: rotateZ(45deg);
+  border-bottom: 2px solid #333;
+  border-right: 2px solid #333;
+  transition: all .5s;
+  display: none;
+}
+#wp__content .grid__row .grid__item.section--register .form__content .prefer__item label input:checked + span {
+  display: block;
+}
+#wp__content .grid__row .grid__item.section--register .reg__why a > span {
+  color: #333;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 4px;
+  font-size: .7rem;
+}
+#wp__content .grid__row .grid__item.section--register .reg__why a > span:hover {
+  color: #da6681;
+}
+#wp__content .grid__row .grid__item.section--register .reg__why span {
+  font-size: .7rem;
+  text-align: center;
+  display: block;
+}
+#wp__content .grid__row .grid__item.section--register .reg__why span strong {
+  color: #d53333;
+}
+#wp__content .section--user {
+  padding-top: 65px;
+  padding-bottom: 50px;
+}

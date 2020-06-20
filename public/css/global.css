@@ -1,0 +1,197 @@
+/*global float and clear*/
+.fl-left {
+	float: left;
+}
+
+.fl-right {
+	float: right;
+}
+
+.clearfix,
+.clearfix::after,
+.clearfix::before {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+/*global text*/
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.text-lineThough {
+	text-decoration: line-through;
+}
+
+.text-overline {
+	text-decoration: overline;
+}
+
+/*global font*/
+.font-italic {
+	font-style: italic;
+}
+
+.font-normal {
+	font-style: normal;
+}
+
+.font-oblique {
+	font-style: oblique;
+}
+
+/*global wrapper*/
+.wp-inner {
+	width: 1170px;
+	margin: 0px auto;
+}
+
+a {
+	display: block;
+}
+
+img {
+	display: block;
+}
+
+.display-none {
+	display: none;
+}
+
+#header #respon-right.dispaly-block {
+	display: block;
+}
+
+.show {
+	display: block !important;
+}
+
+button:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.text-decoration-underline {
+	text-decoration: underline;
+}
+
+/* position */
+.position-relative {
+	position: relative !important;
+}
+
+.position-absolute {
+	position: absolute !important;
+}
+
+.position-fixed {
+	position: fixed !important;
+}
+
+/* display */
+.d-none {
+	display: none;
+}
+
+.d-block {
+	display: block !important;
+}
+
+.d-inline {
+	display: inline;
+}
+
+.d-inline-block {
+	display: inline-block;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-direction-column {
+	flex-direction: column;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.align-items-end {
+	align-items: flex-end;
+}
+
+.justify-content-end {
+	justify-content: flex-end !important;
+}
+
+.justify-content-start {
+	justify-content: flex-start;
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+/* grid img  */
+.img__respon {
+	max-width: 100%;
+	height: auto;
+}
+
+.w-100 {
+	width: 100% !important;
+}
+
+.w-50 {
+	width: 50% !important;
+}
+
+.h-100 {
+	height: 100% !important;
+}
+
+.h-50 {
+	height: 50% !important;
+}

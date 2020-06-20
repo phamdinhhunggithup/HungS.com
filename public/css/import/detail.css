@@ -1,0 +1,316 @@
+#wp__content {
+  margin-top: 150px;
+  margin-bottom: 100px;
+  transition: all .5s;
+}
+
+#wp__content.active {
+  margin-top: 187px;
+  transition: all .5s;
+}
+
+#wp__content .grid__full-width {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#wp__content .grid__full-width.active {
+  margin-top: 187px;
+  transition: all .5s;
+}
+
+.section--reviews-product {
+  margin-bottom: 100px;
+}
+
+.section--reviews-product .grid__item {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_title h4 {
+  padding: 20px 0;
+  font-family: "Montserrat-Black";
+  font-size: 1.4rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .title {
+  color: #444;
+  margin-bottom: 15px;
+  font-size: .9rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .common__rate ul.common__rate-star .common__rate-item {
+  color: #ffc016;
+  margin-right: 3px;
+  font-size: 1.6rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .common__rate .product-intro__head-vote-point {
+  color: #ffc016;
+  margin-left: 5px;
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .reviews__wp {
+  width: 55%;
+  color: var(--black-color);
+  font-size: .8rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .reviews__wp .fit__item {
+  padding: 5px 0;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .reviews__wp .fit__name {
+  display: block;
+  width: 10%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .reviews__wp .common__reviews-progress {
+  width: 70%;
+  height: 7px;
+  background-color: #d2d2d2;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .reviews__wp .common__reviews-progress .progress__bar {
+  position: absolute;
+  height: 100%;
+  background-color: var(--black-color);
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-averate .common-review__avarate-item .reviews__wp .fit__ratio {
+  display: block;
+  width: 10%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-tab {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-tab .tab__item {
+  padding: 20px 0;
+  color: #656565;
+  position: relative;
+  cursor: pointer;
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: .85rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-tab .tab__item.active {
+  color: #353535;
+  transition: all .5s;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-tab .tab__item.active::after {
+  content: "";
+  height: 1.5px;
+  width: 100%;
+  position: absolute;
+  background-color: var(--black-color);
+  bottom: 0;
+  left: 0;
+  transition: all .5s;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter .common-reviews__select-item {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+  cursor: pointer;
+  padding: 12px 0;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter .common-reviews__select-item .title {
+  color: var(--black-color);
+  margin-right: 10px;
+  font-size: .9rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter .common-reviews__select-item:hover .common-reviews__select-box-list {
+  display: block !important;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter .common-reviews__select-item .common-reviews__select-box .common-reviews__select-box-input {
+  width: 95px;
+  border: 1px solid #e1e1e1e1;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter .common-reviews__select-item .common-reviews__select-box .common-reviews__select-box-input span.text {
+  color: #4e4e4e;
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter .common-reviews__select-item .common-reviews__select-box .common-reviews__select-box-list {
+  display: none;
+  width: 150px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  padding: 5px 0;
+  background-color: var(--white-color);
+  right: 0;
+  top: 50px;
+  z-index: 1;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter .common-reviews__select-item .common-reviews__select-box .common-reviews__select-box-list span {
+  display: block;
+  padding: 8px 15px;
+  font-size: .8rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-select .common__reviews-select-filter .common-reviews__select-item .common-reviews__select-box .common-reviews__select-box-list span:hover {
+  background-color: #e1e1e1;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list {
+  padding: 30px 0;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item {
+  padding: 30px 0;
+  border-bottom: 1px dashed #e1e1e1;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-left {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-left .nike__name .name__reviewer {
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: .7rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-left .info__body span {
+  font-size: .65rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-left .info__body span[name] {
+  color: #696969;
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-left .info__body span[intro] {
+  color: #a09d9d;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-mid {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-mid .common-reviews__list-item-infoText {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-mid .common-reviews__list-item-infoText .rate__star {
+  margin-bottom: 5px;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-mid .common-reviews__list-item-infoText .rate__star .common__rate-item {
+  color: #ffc016;
+  margin-right: 2px;
+  font-size: 1.2rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-mid .common-reviews__list-item-infoText .rate__desc {
+  color: var(--black-color);
+  font-size: .9rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-mid .common-reviews__list-item-infoImages {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-mid .common-reviews__list-item-infoImages .image__item {
+  margin: 0 2px;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-mid .common-reviews__list-item-infoImages .image__item .thumb-img {
+  display: block;
+  width: 100px;
+  height: 130px;
+  overflow: hidden;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-right .common__reviews-like .num-like {
+  color: var(--black-color);
+  font-size: .8rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-right .common__reviews-like .icon-like {
+  font-size: 1.4rem;
+}
+
+.section--reviews-product .common--reviews-container .common-reviews__tab-item_content .customer__reviews .common__reviews-list .expose__common-reviews__list-item .common-reviews__wp-item .common-reviews__list-item.item-right .common__reviews-date span {
+  color: #a0a0a0;
+  font-size: .8rem;
+}
+
+.section--relative-product .grid__item {
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+.section--relative-product .list__relative-products .wp__rlt--title {
+  margin-bottom: 20px;
+}
+
+.section--relative-product .list__relative-products .wp__rlt--title h3.title {
+  font-family: "Montserrat-bold";
+  font-size: 1.6rem;
+}
+
+.section--relative-product .list__relative-products .wp__rlt--content .wp-rlt__recomment-item {
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.section--relative-product .list__relative-products .wp__rlt--content .rlt__recomment-info {
+  padding: 10px 0;
+  letter-spacing: .7px;
+  font-weight: bold;
+}
+
+.section--relative-product .list__relative-products .rlt__see-more a {
+  color: var(--white-color);
+  background-color: #333;
+  padding: 10px 25px;
+}

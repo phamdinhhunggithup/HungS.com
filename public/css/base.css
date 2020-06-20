@@ -1,0 +1,110 @@
+:root {
+    --text-color: #2f3542;
+    --white-color: #fff;
+    --black-color: #000;
+    --highlight-color: #f80000;
+}
+/*BACKGROUND COLOR*/
+::selection {
+	background: #333333;
+	color: #ffffff;
+}
+
+::-moz-selection {
+	background: #333333;
+	color: #ffffff;
+}
+
+::-webkit-selection {
+	background: #333333;
+	color: #ffffff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat-Regular";
+    font-size: 1rem;
+    line-height: 1.2;
+    color: var(--text-color);
+}
+
+/* ============================= */
+/* ========= FONT FACE ========= */
+/* ============================= */
+
+@font-face {
+    font-family: "Montserrat-Black";
+    src: url(../fonts/font-family/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url(../fonts/font-family/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Italic";
+    src: url(../fonts/font-family/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(../fonts/font-family/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "DawningofaNewDay-Regular";
+    src : url(../fonts/font-family/DawningofaNewDay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "OpenSansCondensed-Light";
+    src: url(../fonts/font-family/OpenSansCondensed-Light.ttf);
+}
+@font-face {
+    font-family: "Anton-Regular";
+    src: url(../fonts/font-family/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: "ArchivoBlack-Regular";
+    src: url(../fonts/font-family/ArchivoBlack-Regular.ttf);
+}
+@font-face {
+    font-family: "BebasNeue-Regular";
+    src: url(../fonts/font-family/BebasNeue-Regular.ttf);
+}
+/* =========================== */
+/* ========== GRID =========== */
+/* =========================== */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid__full-width {
+    width: 100%;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.grid__row-no-gutters .grid__item{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.grid__item {
+    position: relative;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}

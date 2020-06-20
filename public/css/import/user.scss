@@ -1,0 +1,415 @@
+@mixin col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+}
+
+@mixin col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+@mixin col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+@mixin col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+@mixin col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@mixin col-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+@mixin col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+@mixin col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+@mixin col-12 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+@mixin thumb-img-rectangle {
+    width: 207px;
+    height: 271px;
+    overflow: hidden;
+}
+
+@mixin thumb-img-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+%box-center {
+    margin: 0 auto;
+}
+
+%border-row {
+    border-right: 1px solid #e1e1e1;
+}
+
+#wp__content {
+    margin-top: 150px;
+    transition: all .5s;
+    &.active {
+        margin-top: 187px;
+        transition: all .5s;
+    }
+    %title-user {
+        text : {
+            transform: capitalize;
+            align: center;
+        }
+
+        font : {
+            weight: bold;
+            size: 1.2rem;
+        }
+    }
+
+    %form-group {
+        padding: 10px 5px;
+
+        label,
+        span {
+            display: block;
+            color: #666;
+            margin-bottom: 3px;
+
+            font : {
+                size: .7rem;
+                weight: 300;
+            }
+        }
+
+        input.form__control {
+            width: 100%;
+            border: 1px solid #bbb;
+            padding: 7px 10px;
+            color: #4c4c4c;
+            letter-spacing: 1.2px;
+        }
+
+        button.btn {
+            background-color: var(--black-color);
+            border: none;
+            color: var(--white-color);
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+
+            font : {
+                weight: bold;
+                size: 1.1rem;
+            }
+        }
+    }
+
+
+    .grid__row {
+        max-width: 1220px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .border {
+            width: 1px;
+            background-color: #e1e1e1;
+            margin: 0 100px;
+        }
+
+        .grid__item {
+            @include col-3();
+
+            &.section--login {
+                .lds-facebook {
+                    display: inline-block;
+                    position: relative;
+                    width: 80px;
+                    height: 80px;
+                  }
+                  .lds-facebook div {
+                    display: inline-block;
+                    position: absolute;
+                    left: 8px;
+                    width: 16px;
+                    background: #fff;
+                    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+                  }
+                  .lds-facebook div:nth-child(1) {
+                    left: 8px;
+                    animation-delay: -0.24s;
+                  }
+                  .lds-facebook div:nth-child(2) {
+                    left: 32px;
+                    animation-delay: -0.12s;
+                  }
+                  .lds-facebook div:nth-child(3) {
+                    left: 56px;
+                    animation-delay: 0;
+                  }
+                  @keyframes lds-facebook {
+                    0% {
+                      top: 8px;
+                      height: 64px;
+                    }
+                    50%, 100% {
+                      top: 24px;
+                      height: 32px;
+                    }
+                  }
+                  
+                .lds-facebook {
+                    display: inline-block;
+                    position: relative;
+                    width: 80px;
+                    height: 16px;
+                }
+
+                .lds-facebook div {
+                    display: inline-block;
+                    position: absolute;
+                    left: 8px;
+                    width: 10px;
+                    background: #fff;
+                    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+                }
+
+                .lds-facebook div:nth-child(1) {
+                    left: 8px;
+                    animation-delay: -0.24s;
+                }
+
+                .lds-facebook div:nth-child(2) {
+                    left: 32px;
+                    animation-delay: -0.12s;
+                }
+
+                .lds-facebook div:nth-child(3) {
+                    left: 56px;
+                    animation-delay: 0;
+                }
+
+                @keyframes lds-facebook {
+                    0% {
+                        top: -12px;
+                        height: 50px;
+                    }
+
+                    50%,
+                    100% {
+                        top: 4px;
+                        height: 18px;
+                    }
+                }
+
+                .system__login {
+                    .form__title {
+                        margin-bottom: 30px;
+
+                        h4 {
+                            @extend %title-user;
+                        }
+                    }
+
+                    .form__content {
+                        .form__group {
+                            @extend %form-group;
+
+                            .forgot__pass {
+                                color: #717171;
+                                padding: 5px 0;
+                                text-decoration: underline;
+                                text-align: center;
+
+                                font: {
+                                    size: .65rem;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .sign__in-divide {
+                    position: relative;
+                    margin: 5px 0;
+
+                    @mixin border-divide {
+                        position: absolute;
+                        content: "";
+                        width: 45%;
+                        height: 1px;
+                        background: #e5e5e5;
+                        top: 6.5px;
+                    }
+
+                    color: #ccc;
+                    text-align: center;
+
+                    font: {
+                        size: .7rem;
+                    }
+
+                    &::after {
+                        @include border-divide();
+                        right: 0;
+                    }
+
+                    &::before {
+                        @include border-divide();
+                        left: 0;
+                    }
+                }
+
+                .social__login {
+                    .login__item {
+                        padding: 10px 15px;
+                        width: 100%;
+                        background: none;
+                        border: 1px solid #cccccc;
+                        margin: 20px 0;
+                        cursor: pointer;
+
+                        .icon {
+                            width: 20px;
+                            height: 20px;
+                            overflow: hidden;
+
+                            img {
+                                height: 100%;
+                            }
+                        }
+
+                        &.fb--login {
+                            .icon {
+                                margin-left: 4px;
+                            }
+                        }
+
+                        .text {
+                            font-family: monospace;
+                            color: #7d7d7d;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+                .sign-in-discountinfo {
+                    span {
+                        display: block;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 1.2;
+                        margin-bottom: 6px;
+
+                        strong {
+                            color: #d53333;
+                        }
+                    }
+                }
+            }
+
+            &.section--register {
+                .form__title {
+                    margin-bottom: 30px;
+
+                    h4 {
+                        @extend %title-user;
+                    }
+                }
+
+                .form__content {
+                    .form__group {
+                        @extend %form-group;
+                    }
+
+                    label[for='prefer'] {
+                        color: #333;
+                        margin-bottom: 10px;
+                    }
+
+                    .prefer__item {
+                        flex: 0 0 50%;
+                        max-width: 50%;
+                        margin-bottom: 5px;
+                        display: flex;
+                        align-items: center;
+
+                        label {
+                            width: 18px;
+                            height: 18px;
+                            border: 1px solid #ccc;
+                            margin-right: 10px;
+                            cursor: pointer;
+                            position: relative;
+
+                            span {
+                                width: 6px;
+                                height: 12px;
+                                position: absolute;
+                                top: 1px;
+                                left: 5px;
+                                transform: rotateZ(45deg);
+                                border-bottom: 2px solid #333;
+                                border-right: 2px solid #333;
+                                transition: all .5s;
+                                display: none;
+                            }
+
+                            input:checked+span {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                .reg__why {
+                    a>span {
+                        color: #333;
+                        text-decoration: underline;
+                        text-align: center;
+                        margin-bottom: 4px;
+
+                        font: {
+                            size: .7rem;
+                        }
+
+                        &:hover {
+                            color: #da6681;
+                        }
+                    }
+
+                    span {
+                        font-size: .7rem;
+                        text-align: center;
+                        display: block;
+
+                        strong {
+                            color: #d53333;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section--user {
+        padding-top: 65px;
+        padding-bottom: 50px;
+    }
+}
